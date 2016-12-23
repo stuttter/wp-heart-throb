@@ -14,10 +14,20 @@
 	content: "\f487";
 }
 
+@keyframes beat {
+	from { transform: none; }
+	50% { transform: scale(1.1); }
+	to { transform: none; }
+}
+
 @keyframes pound {
 	from { transform: none; }
 	50% { transform: scale(1.4); }
 	to { transform: none; }
+}
+
+#wp-admin-bar-wp-heart-throb .ab-icon:not(.beat) {
+	animation: beat 1s infinite;
 }
 
 #wp-admin-bar-wp-heart-throb .ab-icon.beat {
