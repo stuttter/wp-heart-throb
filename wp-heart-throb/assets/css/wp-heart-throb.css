@@ -1,0 +1,25 @@
+#wp-admin-bar-wp-heart-throb .ab-icon {
+	position: relative;
+	font: normal 20px/1 dashicons;
+	speak: none;
+	float: left;
+	padding: 0px;
+	margin: 6px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: none !important;
+}
+
+#wp-admin-bar-wp-heart-throb .ab-icon:before {
+	content: "\f487";
+}
+
+@keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.4); }
+	to { transform: none; }
+}
+
+#wp-admin-bar-wp-heart-throb .ab-icon.beat {
+	animation: pound 0.3s infinite;
+}
