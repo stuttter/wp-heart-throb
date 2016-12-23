@@ -6,11 +6,11 @@ Tested up to: 4.8
 Stable tag: 1.0.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
-&heart;
+Shows a beating heart in your toolbar for each tick of the heartbeat API
 
 == Description ==
 
-Shows a beating heart in your toolbar for each tick of the heartbeat API
+Use this plugin to monitor the heart-rate of your WordPress installation.
 
 == Screenshots ==
 
