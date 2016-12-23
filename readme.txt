@@ -6,7 +6,7 @@ Tested up to: 4.8
 Stable tag: 1.0.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
-Shows a beating heart in your toolbar for each tick of the heartbeat API
+Adds a beating heart to your toolbar
 
 == Description ==
 
