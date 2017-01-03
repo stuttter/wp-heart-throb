@@ -1,0 +1,17 @@
+{
+  "name": "stuttter/wp-heart-throb",
+  "description": "Adds a beating heart to your toolbar",
+  "homepage": "https://github.com/stuttter/wp-heart-throb",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "^1.0"
+  },
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "John James Jacoby",
+      "email": "johnjamesjacoby@me.com"
+    }
+  ]
+}
