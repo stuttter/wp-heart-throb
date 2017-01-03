@@ -3,7 +3,7 @@ Contributors: johnjamesjacoby, stuttter
 Tags: jquery, heart, beat
 Requires at least: 4.0
 Tested up to: 4.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 Adds a beating heart to your toolbar
@@ -45,6 +45,9 @@ Future versions of this plugin could add a drop-down to this menu with more info
 https://github.com/stuttter/wp-heart-throb/
 
 == Changelog ==
+
+= 1.0.1 - 2017/01/03 =
+* Improved throb animation
 
 = 1.0.0 - 2016/12/23 =
 * Initial release

@@ -22,6 +22,6 @@ jQuery( document ).ready( function ( $ ) {
 		// Toggle the beat
 		setTimeout( function() {
 			throbber.toggleClass( 'beat' );
-		}, 300 );
+		}, 1000 );
 	} );
 } );

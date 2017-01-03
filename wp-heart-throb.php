@@ -5,7 +5,7 @@
  * Description: Shows a beating heart in your toolbar for each tick of the heartbeat API
  * Author:      John James Jacoby
  * Author URI:  https://jjj.blog
- * Version:     1.0.0
+ * Version:     1.0.1
  * License:     GPLv2 or later
  */
 
@@ -48,5 +48,5 @@ function wp_heart_throb_get_plugin_url() {
  * @return int
  */
 function wp_heart_throb_get_asset_version() {
-	return 201612230002;
+	return 201701030001;
 }
