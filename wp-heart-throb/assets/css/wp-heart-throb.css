@@ -26,10 +26,20 @@
 	to { transform: none; }
 }
 
+@keyframes flash {
+	from {}
+	50% { color: #c41111; }
+	to {}
+}
+
 #wp-admin-bar-wp-heart-throb .ab-icon:not(.beat) {
 	animation: beat 1s infinite;
 }
 
 #wp-admin-bar-wp-heart-throb .ab-icon.beat {
 	animation: pound 0.5s infinite;
+}
+
+#wp-admin-bar-wp-heart-throb .ab-icon.beat:before {
+	animation: flash 0.5s infinite;
 }
