@@ -43,6 +43,9 @@ function wp_heart_throb_admin_bar_menu_item() {
  * @return array
  */
 function wp_heart_throb_heartbeat_received( $response, $data ) {
+	if ( empty( $data['wp_heart_throb'] ) ) {
+		return $response;
+	}
 
     // Add the beat
     if ( $data['wp_heart_throb'] === 'beat' ) {
