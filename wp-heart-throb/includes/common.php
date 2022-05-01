@@ -45,7 +45,7 @@ function wp_heart_throb_admin_bar_menu_item() {
 function wp_heart_throb_heartbeat_received( $response, $data ) {
 
     // Add the beat
-    if ( $data['wp_heart_throb'] === 'beat' ) {
+    if ( ( $data['wp_heart_throb'] ?? '' ) === 'beat' ) {
         $response['wp_heart_throb'] = $data['wp_heart_throb'];
     }
 
