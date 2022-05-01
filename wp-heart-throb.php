@@ -1,12 +1,13 @@
 <?php
 /**
- * Plugin Name: WP Heart Throb
- * Plugin URI:  http://wordpress.org/plugins/wp-heart-throb/
- * Description: Shows a beating heart in your toolbar for each tick of the heartbeat API
- * Author:      John James Jacoby
- * Author URI:  https://jjj.blog
- * Version:     1.0.1
- * License:     GPLv2 or later
+ * Plugin Name:  WP Heart Throb
+ * Plugin URI:   http://wordpress.org/plugins/wp-heart-throb/
+ * Description:  Shows a beating heart in your toolbar for each tick of the heartbeat API
+ * Author:       John James Jacoby
+ * Author URI:   https://jjj.blog
+ * Version:      1.0.1
+ * Requires PHP: 7.3
+ * License:      GPLv2 or later
  */
 
 // Exit if accessed directly
