@@ -1,6 +1,6 @@
 # WP Heart Throb
 
-Shows a beating heart in your toolbar for each tick of the heartbeat API
+Shows a beating heart in the WordPress toolbar for each tick of the Heartbeat API.
 
 WordPress uses an API called "Heartbeat" to monitor certain conditions and report to the user if something went wrong.
 
@@ -13,17 +13,30 @@ This plugin adds a small menu item to the WordPress toolbar that does the follow
 
 Future versions of this plugin could add a drop-down to this menu with more information.
 
-# Installation
+## Installation
 
 * Download and install using the built in WordPress plugin installer.
 * Activate in the "Plugins" area of your admin by clicking the "Activate" link.
 * No further setup or configuration is necessary.
 
-### Where can I get support?
+## Development
 
-* Basic: https://wordpress.org/support/plugin/wp-heart-throb/
-* Priority: https://chat.flox.io/support/channels/wp-heart-throb/
+Install the locked development dependencies and run the regression suite:
 
-### Can I contribute?
+```sh
+composer install
+composer test
+```
 
-Yes, please!
+The plugin and its development tooling require PHP 7.4 or newer. Production
+Composer installs should omit development dependencies.
+
+## Support
+
+Use the [WordPress.org support forum](https://wordpress.org/support/plugin/wp-heart-throb/)
+for installation and usage questions. Use GitHub issues for reproducible defects
+and focused enhancements.
+
+## Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.

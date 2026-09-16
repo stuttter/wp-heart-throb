@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: WordPress.org support
+    url: https://wordpress.org/support/plugin/wp-heart-throb/
+    about: Ask installation and usage questions in the public support forum.
+  - name: Security report
+    url: https://github.com/stuttter/wp-heart-throb/security/advisories/new
+    about: Report a suspected vulnerability privately.
