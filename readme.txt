@@ -1,9 +1,9 @@
 === WP Heart Throb ===
 Contributors: johnjamesjacoby, stuttter
 Tags: jquery, heart, beat
-Requires at least: 4.0
-Requires PHP: 7.0
-Tested up to: 4.8
+Requires at least: 6.4
+Requires PHP: 7.4
+Tested up to: 7.1
 Stable tag: 1.0.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 

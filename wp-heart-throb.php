@@ -6,7 +6,8 @@
  * Author:       John James Jacoby
  * Author URI:   https://jjj.blog
  * Version:      1.0.1
- * Requires PHP: 7.3
+ * Requires at least: 6.4
+ * Requires PHP: 7.4
  * License:      GPLv2 or later
  */
 
