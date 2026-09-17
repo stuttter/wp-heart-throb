@@ -5,6 +5,8 @@ Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 7.1
 Stable tag: 1.0.1
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
 
 Adds a beating heart to your toolbar
