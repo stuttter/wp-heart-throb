@@ -8,6 +8,7 @@
  * Version:      1.0.1
  * Requires at least: 6.4
  * Requires PHP: 7.4
+ * Text Domain:  wp-heart-throb
  * License:      GPLv2 or later
  */
 
