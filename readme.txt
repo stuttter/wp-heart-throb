@@ -4,7 +4,7 @@ Tags: jquery, heart, beat
 Requires at least: 6.4
 Requires PHP: 7.4
 Tested up to: 7.1
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Q4F4EL5YJ62J
@@ -48,6 +48,12 @@ Future versions of this plugin could add a drop-down to this menu with more info
 https://github.com/stuttter/wp-heart-throb/
 
 == Changelog ==
+
+= 1.1.0 - 2026/09/16 =
+* Avoid an undefined-array-key warning when Heartbeat data omits the plugin key
+* Require PHP 7.4 and WordPress 6.4 or newer
+* Declare compatibility with WordPress 7.1
+* Add automated regression tests and contributor tooling
 
 = 1.0.1 - 2017/01/03 =
 * Improved throb animation

@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0 (2026-09-16)
 
 * Avoid an undefined-array-key warning when Heartbeat data omits the plugin key
 * Require PHP 7.4 and WordPress 6.4 or newer
