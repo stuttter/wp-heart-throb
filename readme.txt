@@ -38,8 +38,8 @@ Future versions of this plugin could add a drop-down to this menu with more info
 
 = Where can I get support? =
 
-* Basic: https://wordpress.org/support/plugin/wp-heart-throb/
-* Priority: https://chat.flox.io/support/channels/wp-heart-throb/
+* Installation and usage: https://wordpress.org/support/plugin/wp-heart-throb/
+* Bugs and enhancements: https://github.com/stuttter/wp-heart-throb/issues
 
 = Where can I find documentation? =
 
