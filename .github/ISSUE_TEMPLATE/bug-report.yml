@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem in WP Heart Throb.
+title: "Bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Report security vulnerabilities privately through GitHub Security Advisories.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable sequence that demonstrates the problem.
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: WP Heart Throb version
+    validations:
+      required: true
+  - type: input
+    id: wordpress-version
+    attributes:
+      label: WordPress version
+    validations:
+      required: true
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Affected context
+      options:
+        - Administration toolbar
+        - Front-end toolbar
+        - Both toolbars
+        - Heartbeat request
+        - Heartbeat response
+        - Animation or styling
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional context
+      description: Include relevant plugins, themes, browser details, and sanitized logs. Never include credentials or personal data.
