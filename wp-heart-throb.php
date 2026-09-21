@@ -19,6 +19,8 @@ defined( 'ABSPATH' ) || exit;
  * Includes
  *
  * @since 1.0.0
+ *
+ * @return void
  */
 function _wp_heart_throb() {
 

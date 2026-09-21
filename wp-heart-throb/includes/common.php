@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
  *
  * @since 1.9.0
  *
- * @return bool
+ * @return bool|null
  */
 function wp_heart_throb_admin_bar_menu_item() {
 
@@ -30,6 +30,8 @@ function wp_heart_throb_admin_bar_menu_item() {
 		'title'  => '<span class="ab-icon"></span>',
 		'href'   => '#'
 	) );
+
+	return null;
 }
 
 /**
@@ -37,10 +39,10 @@ function wp_heart_throb_admin_bar_menu_item() {
  *
  * @since 1.0.0
  *
- * @param array $response
- * @param array $data
+ * @param array<string, mixed> $response
+ * @param array<string, mixed> $data
  *
- * @return array
+ * @return array<string, mixed>
  */
 function wp_heart_throb_heartbeat_received( $response, $data ) {
 
