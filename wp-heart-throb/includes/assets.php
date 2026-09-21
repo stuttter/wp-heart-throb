@@ -13,6 +13,8 @@ defined( 'ABSPATH' ) || exit;
  * Enqueue CSS & JS
  *
  * @since 1.0.0
+ *
+ * @return void
  */
 function wp_heart_throb_enqueue_assets() {
 
