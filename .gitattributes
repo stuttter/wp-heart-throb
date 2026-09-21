@@ -10,6 +10,7 @@
 /SUPPORT.md export-ignore
 /composer.json export-ignore
 /composer.lock export-ignore
+/phpcs-baseline.json export-ignore
 /phpunit.xml.dist export-ignore
 /phpstan.neon.dist export-ignore
 /phpstan-wordpress-versions.stub export-ignore
